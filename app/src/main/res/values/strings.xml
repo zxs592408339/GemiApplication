@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Gemi Application</string>
+    <string name="tab_near">附近</string>
+    <string name="tab_cheap">找便宜</string>
+    <string name="tab_favor">特惠</string>
+    <string name="tab_pocket">口袋</string>
+    <string name="tab_more">更多</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

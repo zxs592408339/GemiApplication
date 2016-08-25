@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:id="@+id/internet_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/info_map_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/info_map_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/info_map_txt"
+        android:src="@drawable/info_map" />
+
+    <TextView
+        android:id="@+id/internet_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@id/info_map_img"
+        android:layout_toRightOf="@id/internet_img"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/gemi_size" />
+
+    <TextView
+        android:id="@+id/internet_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/info_map_img"
+        android:singleLine="true"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="@dimen/gemi_size"
+        android:layout_below="@id/internet_title"
+        android:layout_alignStart="@id/internet_title"
+        android:layout_alignLeft="@id/internet_title" />
+
+    <TextView
+        android:id="@+id/internet_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/info_map_img"
+        android:singleLine="true"
+        android:textColor="@android:color/darker_gray"
+        android:layout_alignTop="@id/info_map_txt"
+        android:layout_alignLeft="@id/internet_period"
+        android:layout_alignStart="@id/internet_period" />
+
+    <ImageView
+        android:id="@+id/near_group_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/near_card_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:layout_toLeftOf="@id/near_group_img" />
+
+    <ImageView
+        android:id="@+id/near_ticket_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:layout_toLeftOf="@id/near_card_img" />
+</RelativeLayout>
